@@ -1,11 +1,13 @@
 /* Personal*/
 .pulse {
-  height: 150px;
-  width: 150px;
-  background: linear-gradient(
+  height: 200px;
+  width: 200px;
+  /* background: linear-gradient(
     #F0A150,
     #ebb177
-  );
+  ); */
+  background: #F0A150 url(../images/person-pic/person-pic.png) center center no-repeat;
+  background-size: cover;
   position: absolute;
   margin: auto;
   left: 0;
@@ -26,29 +28,25 @@
   opacity: 0.7;
 }
 .pulse:before {
-  animation: pulse 2s ease-out infinite;
+  animation: pulse 1.5s ease-out infinite;
 }
 .pulse::after {
-  animation: pulse 2s 1s ease-out infinite;
+  animation: pulse 1.5s 1s ease-out infinite;
 }
 @keyframes pulse {
   100%{
-    transform: scale(2.5);
+    transform: scale(2);
     opacity: 0;
   }
 }
-.personal .degrees-pic img{
-  width: 220px;
-  height: 220px;
-}
 .personal .degrees-pic {
   display: block;
-  position: absolute;
-  top: calc(36% - 74px);
-  left: 0;
-  right: 0;
-  bottom: 0;
   text-align: center;
+  margin-top: 350px;
+}
+.personal .degrees-pic img {
+  width: 220px;
+  height: 220px;
 }
 .personal .degrees-pic .names .bold {
   font-size: 30px;
