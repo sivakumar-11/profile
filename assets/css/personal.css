@@ -1,0 +1,96 @@
+/* Personal*/
+.pulse {
+  height: 150px;
+  width: 150px;
+  background: linear-gradient(
+    #F0A150,
+    #ebb177
+  );
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: -135px;
+  bottom: 0;
+  border-radius: 50%;
+}
+.pulse:before,
+.pulse:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #ebb177;
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.7;
+}
+.pulse:before {
+  animation: pulse 2s ease-out infinite;
+}
+.pulse::after {
+  animation: pulse 2s 1s ease-out infinite;
+}
+@keyframes pulse {
+  100%{
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+.personal .degrees-pic img{
+  width: 220px;
+  height: 220px;
+}
+.personal .degrees-pic {
+  display: block;
+  position: absolute;
+  top: calc(34% - 74px);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+.personal .degrees-pic .names .bold {
+  font-size: 30px;
+  text-align: center;
+}
+.personal .degrees-pic .names .name {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+}
+.personal .degrees-pic .names .course,
+.personal .degrees-pic .names .ui {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+  .personal .names .bold,
+  .personal .names .name,
+  .personal .names .course,
+  .personal .names .ui {
+    padding-left: 0vh;
+  }
+  .personal .degrees-pic img {
+    padding-right: auto;
+    padding-top: -70px;
+  }
+  .personal .pulse {
+    margin-top: auto;
+    margin-bottom: 329px;
+  }
+}
+
+
+
+

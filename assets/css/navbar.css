@@ -1,0 +1,53 @@
+
+/* Nabar */
+.navbar {
+  padding: 20px 30px;
+}
+.navbar .logo {
+  display: inline-block;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: white;
+}
+.logo:hover,
+.logo {
+  color: #F0A150;
+}
+.navbar .menus {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  float: right;
+  font-size: 1.1em;
+/* margin-right: 30px; */
+}
+.navbar .menus .menu {
+  display: inline-block;
+  color: #FFFFFF;
+  transition: .3s;
+  margin-left: 15px;
+}
+.navbar .menu a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.navbar .menu a:hover {
+  color: #F0A150;
+}
+.navbar .menus .menu:nth-child(n+2) {
+  margin-left: 16px;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+.navbar .menus {
+  display: none;
+}
+.navbar .logo{
+  font-size: 12px;
+  padding-left: 0px;
+}
+}

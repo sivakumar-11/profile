@@ -1,0 +1,56 @@
+/*Skills*/
+
+.skill .skills {
+    padding: 20px;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-left: 30px;
+  }
+.skill .tools,
+.skill .tool {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: medium;
+    margin-left: 5vh;
+  }
+.skill .icons,
+.skill .icon {
+    display: inline-block;
+    padding-left: 113px;
+    margin: 30px;
+    margin-top: 35px;
+  }
+  .skill .icons .pic,
+  .skill .icon .pics {
+    width: 45px;
+    height: 45px;
+    border-radius: 0%;
+    padding-right: 0px;
+  }
+  .skill .icons .words {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: -10px;
+  }
+  .skill .icon .word {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    text-align: center;
+  }
+
+
+
+/* Mobile */
+@media screen and (max-width: 576px) {  
+  .skill .tools,
+  .skill .tool {
+    margin-left: 25px;
+  }
+  .skill .icons,
+  .skill .icon {
+    margin-left: -50px;
+  }
+}

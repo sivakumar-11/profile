@@ -1,0 +1,92 @@
+/*contact*/
+
+.contact-details .contact {
+  padding-left: 35px;
+  padding-top: 35px;
+  padding-left: 35px;
+  padding-top: 18px;
+  text-align: center;
+  font-size: 15px;
+}
+.contact-details .telephone,
+.contact-details .github,
+.contact-details .linked,
+.contact-details .locations,
+.contact-details .gmail {
+  display: inline-block;
+}
+.contact-details .telephone .tele,
+.contact-details .linked .linkedin,
+.contact-details .github .git,
+.contact-details .locations .location,
+.contact-details .gmail .mail {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 0px;
+  margin-top: 50px;
+  padding-left: 95px;
+} 
+.contact-details .telephone .number,
+.contact-details .linked .link,
+.contact-details .github .git-hub,
+.contact-details .locations .address,
+.contact-details .gmail .email { 
+  font-family: "Poppins", sans-serif;
+  font-size: medium;
+  display: inline-block;
+  vertical-align: 12px;
+  margin-left: 15px
+}
+
+
+
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+  .contact-details .contact{
+  margin: 0px;
+  padding: 0px;
+  margin-left: 10px;
+  text-align: justify;
+  margin-bottom: -25px;
+  padding-top: 20px;
+
+}
+  .contact-details .telephone,
+  .contact-details .linked,
+  .contact-details .github,
+  .contact-details .locations,
+  .contact-details .gmail {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    margin-left: -79px;
+    margin-top: -50px;
+    padding-top: 45px;
+    overflow-wrap: break-word;
+  }
+  .contact-details .number,
+  .contact-details .link,
+  .contact-details .git-hub {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 0px;
+  }
+  .contact-details .address {
+    margin:0px;
+    padding: 0px;
+    width: 247px;
+  }
+  .contact-details .location,
+  .contact-details .mail {
+    margin:0px;
+    padding: 0px;
+    margin-bottom: 14px;
+  }
+  .contact-details .email {
+    margin:0px;
+    padding: 0px;
+    width: 233px;
+  }
+}

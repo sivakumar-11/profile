@@ -1,0 +1,70 @@
+/*Education*/
+
+.educations .education {
+    display: inline-block;
+    margin: 20px;
+  }
+.educations .timeline-component,
+.timeline-year-right {
+  margin: 5px 50px 60px 40px;
+  margin-top: 5px;
+}
+.educations .timeline-middleline {
+  position: relative;
+  background: Rosybrown; 
+}
+.educations .timeline-point {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 15px;
+  height: 15px;
+  background: Silver;
+  border-radius: 50%;
+}
+ .educations .timeline {
+    margin-left: 50px;
+    max-width: 950px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    font-family: "Poppins", sans-serif;
+    font-size: 19px;
+    text-align: right;
+    padding-top: 0px;
+    margin-top: 15px;
+  }
+ .educations .timeline-component-bg,
+ .educations .timeline-title {
+    text-align: start;
+    padding-top: 0px;
+    margin-top: -3px;
+  }
+  .educations .timeline-middleline.last {
+    margin-bottom: 180px;
+  }
+
+  
+
+  
+/* Mobile */
+@media screen and (max-width: 576px) {
+  .educations .timeline-title,
+  .educations .timeline-middleline,
+  .educations .timeline-point,
+  .educations .timeline-middleline.last,
+  .educations .timeline-paragraph{
+    padding-left: 0vh;
+  }
+  .educations .timeline {
+    margin: 0px;
+    padding: 0px;
+    margin-left: -50px;
+  }
+  .educations .timeline-middleline.last {
+    margin-bottom: 200px;
+  }
+}
+
+ 
