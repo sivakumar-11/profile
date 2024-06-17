@@ -26,7 +26,7 @@
  .educations .timeline {
     margin-left: 50px;
     max-width: 950px;
-    padding: 10px;
+    padding: 0px;
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
     font-family: "Poppins", sans-serif;
